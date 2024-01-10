@@ -5,3 +5,8 @@ const a = 1;
 
 console.log(age)
 ```
+
+```js
+const b = 2;
+console.log(ball)
+```
