@@ -9,4 +9,10 @@ console.log(age)
 ```js
 const b = 2;
 console.log(ball)
+
+const c = 3;
+console.log(c)
+
 ```
+
+
