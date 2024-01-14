@@ -13,6 +13,10 @@ console.log(ball)
 const c = 3;
 console.log(c)
 
+const suraj = 'bhardwaj'
+consol.log(suraj)
+console.log(suraj)
+
 ```
 
 
