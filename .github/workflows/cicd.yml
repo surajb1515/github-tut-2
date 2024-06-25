@@ -26,6 +26,7 @@ jobs:
         run: echo Hello, world!
 
   test:
+    needs: build
     runs-on: ubuntu-latest
     steps: 
       - name: hello-suraj
