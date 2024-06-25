@@ -31,3 +31,9 @@ jobs:
     steps: 
       - name: hello-deploy
         run: echo "hello-deploy"
+      - name: information
+        run: whoami
+      - name: more information
+        run: hostname
+      - name: some more information
+        run: df -h
