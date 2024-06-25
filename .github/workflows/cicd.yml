@@ -37,3 +37,6 @@ jobs:
         run: hostname
       - name: some more information
         run: df -h
+      - name: info
+        run: ls -lhtr
+        
