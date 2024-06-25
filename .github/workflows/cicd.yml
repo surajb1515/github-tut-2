@@ -15,8 +15,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: create suraj-file.txt
+        run: touch suraj-file.txt
+        
 
   test:
     needs: build
@@ -35,8 +36,8 @@ jobs:
         run: whoami
       - name: more information
         run: hostname
-      - name: some more information
-        run: df -h
+      - name: create file
+        run: touch jethalal-file.txt
       - name: info
         run: ls -lhtr
         
